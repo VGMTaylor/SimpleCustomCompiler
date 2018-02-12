@@ -1,0 +1,380 @@
+--02/12/2016----------------------------------------------------- 
+Lexical Tokens for a.spl 
+-- 6:17:17.65----------------------------------------------------- 
+Identifier: ProgA Token: SPL_IDENTIFIER
+Token: COLON
+Token: SPL_CODE
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Char: 'h' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'e' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'o' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDP
+Identifier: ProgA Token: SPL_IDENTIFIER
+Token: PERIOD
+--02/12/2016----------------------------------------------------- 
+Lexical Tokens for b.spl 
+-- 6:17:19.41----------------------------------------------------- 
+Identifier: ProgB Token: SPL_IDENTIFIER
+Token: COLON
+Token: SPL_DECLARATIONS
+Identifier: a Token: SPL_IDENTIFIER
+Token: COMMA
+Identifier: b Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_INTEGER
+Token: SEMICOLON
+Identifier: c Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_CHARACTER
+Token: SEMICOLON
+Identifier: d Token: SPL_IDENTIFIER
+Token: COMMA
+Identifier: e Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_REAL
+Token: SEMICOLON
+Token: SPL_CODE
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: a Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: b Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_IF
+Identifier: a Token: SPL_IDENTIFIER
+Token: GREATER_THAN
+Identifier: b Token: SPL_IDENTIFIER
+Token: SPL_THEN
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Char: 'A' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: SPL_ELSE
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Char: 'B' Token: CHARACTER_CONSTANT
+Token: CLOSE_BRACKET
+Token: SPL_ENDIF
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SEMICOLON
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: d Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: d Token: SPL_IDENTIFIER
+Token: TIMES
+Real: 2.300000 Token: REAL_NUM
+Token: ASSIGNMENT
+Identifier: e Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: e Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SEMICOLON
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: c Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: c Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDP
+Identifier: ProgB Token: SPL_IDENTIFIER
+Token: PERIOD
+--02/12/2016----------------------------------------------------- 
+Lexical Tokens for c.spl 
+-- 6:17:20.90----------------------------------------------------- 
+Identifier: Prog3 Token: SPL_IDENTIFIER
+Token: COLON
+Token: SPL_DECLARATIONS
+Identifier: a Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_INTEGER
+Token: SEMICOLON
+Token: SPL_CODE
+Token: SPL_FOR
+Identifier: a Token: SPL_IDENTIFIER
+Token: SPL_IS
+Integer: 1 Token: INTEGER_NUM
+Token: SPL_BY
+Integer: 1 Token: INTEGER_NUM
+Token: SPL_TO
+Integer: 13 Token: INTEGER_NUM
+Token: SPL_DO
+Token: SPL_IF
+Token: SPL_NOT
+Identifier: a Token: SPL_IDENTIFIER
+Token: EQUALS
+Integer: 7 Token: INTEGER_NUM
+Token: SPL_THEN
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDIF
+Token: SPL_ENDFOR
+Token: SEMICOLON
+Integer: 0 Token: INTEGER_NUM
+Token: ASSIGNMENT
+Identifier: a Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_DO
+Identifier: a Token: SPL_IDENTIFIER
+Token: PLUS
+Integer: 1 Token: INTEGER_NUM
+Token: ASSIGNMENT
+Identifier: a Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_IF
+Token: SPL_NOT
+Identifier: a Token: SPL_IDENTIFIER
+Token: EQUALS
+Integer: 6 Token: INTEGER_NUM
+Token: SPL_AND
+Identifier: a Token: SPL_IDENTIFIER
+Token: NOT_EQUALS
+Integer: 8 Token: INTEGER_NUM
+Token: SPL_THEN
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDIF
+Token: SPL_WHILE
+Identifier: a Token: SPL_IDENTIFIER
+Token: LESS_THAN
+Integer: 14 Token: INTEGER_NUM
+Token: SPL_ENDDO
+Token: SEMICOLON
+Integer: 0 Token: INTEGER_NUM
+Token: ASSIGNMENT
+Identifier: a Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_WHILE
+Identifier: a Token: SPL_IDENTIFIER
+Token: LESS_THAN
+Integer: 12 Token: INTEGER_NUM
+Token: SPL_DO
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: a Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: a Token: SPL_IDENTIFIER
+Token: PLUS
+Integer: 1 Token: INTEGER_NUM
+Token: ASSIGNMENT
+Identifier: a Token: SPL_IDENTIFIER
+Token: SPL_ENDWHILE
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDP
+Identifier: Prog3 Token: SPL_IDENTIFIER
+Token: PERIOD
+--02/12/2016----------------------------------------------------- 
+Lexical Tokens for d.spl 
+-- 6:17:21.82----------------------------------------------------- 
+Identifier: Prog4D Token: SPL_IDENTIFIER
+Token: COLON
+Token: SPL_DECLARATIONS
+Identifier: r1 Token: SPL_IDENTIFIER
+Token: COMMA
+Identifier: r2 Token: SPL_IDENTIFIER
+Token: COMMA
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_REAL
+Token: SEMICOLON
+Token: SPL_CODE
+Token: MINUS
+Real: 2.400000 Token: REAL_NUM
+Token: ASSIGNMENT
+Identifier: r1 Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: MINUS
+Real: 34.989000 Token: REAL_NUM
+Token: ASSIGNMENT
+Identifier: r2 Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Identifier: r1 Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: r2 Token: SPL_IDENTIFIER
+Token: DIVIDE
+Real: 7.400000 Token: REAL_NUM
+Token: ASSIGNMENT
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SEMICOLON
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: r1 Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Identifier: r1 Token: SPL_IDENTIFIER
+Token: PLUS
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: ASSIGNMENT
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: r3 Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDP
+Identifier: Prog4D Token: SPL_IDENTIFIER
+Token: PERIOD
+--02/12/2016----------------------------------------------------- 
+Lexical Tokens for e.spl 
+-- 6:17:22.61----------------------------------------------------- 
+Identifier: ProgV Token: SPL_IDENTIFIER
+Token: COLON
+Token: SPL_DECLARATIONS
+Identifier: integer Token: SPL_IDENTIFIER
+Token: COMMA
+Identifier: i Token: SPL_IDENTIFIER
+Token: SPL_OF
+Token: SPL_TYPE
+Token: SPL_INTEGER
+Token: SEMICOLON
+Token: SPL_CODE
+Token: SPL_READ
+Token: OPEN_BRACKET
+Identifier: integer Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_IF
+Identifier: integer Token: SPL_IDENTIFIER
+Token: LESS_THAN_OR_EQUAL
+Integer: 5 Token: INTEGER_NUM
+Token: SPL_OR
+Identifier: integer Token: SPL_IDENTIFIER
+Token: GREATER_THAN_OR_EQUAL
+Integer: 12 Token: INTEGER_NUM
+Token: SPL_THEN
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SPL_ENDIF
+Token: SEMICOLON
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Token: OPEN_BRACKET
+Integer: 36 Token: INTEGER_NUM
+Token: MINUS
+Integer: 1 Token: INTEGER_NUM
+Token: CLOSE_BRACKET
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SEMICOLON
+Token: SPL_FOR
+Identifier: integer Token: SPL_IDENTIFIER
+Token: SPL_IS
+Token: MINUS
+Integer: 1 Token: INTEGER_NUM
+Token: SPL_BY
+Token: MINUS
+Integer: 1 Token: INTEGER_NUM
+Token: SPL_TO
+Token: MINUS
+Integer: 5 Token: INTEGER_NUM
+Token: SPL_DO
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDFOR
+Token: SEMICOLON
+Token: MINUS
+Integer: 1 Token: INTEGER_NUM
+Token: ASSIGNMENT
+Identifier: i Token: SPL_IDENTIFIER
+Token: SEMICOLON
+Token: SPL_FOR
+Identifier: integer Token: SPL_IDENTIFIER
+Token: SPL_IS
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: SPL_BY
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: SPL_TO
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Identifier: i Token: SPL_IDENTIFIER
+Token: TIMES
+Token: OPEN_BRACKET
+Identifier: i Token: SPL_IDENTIFIER
+Token: PLUS
+Identifier: i Token: SPL_IDENTIFIER
+Token: PLUS
+Identifier: i Token: SPL_IDENTIFIER
+Token: PLUS
+Identifier: i Token: SPL_IDENTIFIER
+Token: PLUS
+Identifier: i Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SPL_DO
+Token: SPL_WRITE
+Token: OPEN_BRACKET
+Identifier: integer Token: SPL_IDENTIFIER
+Token: CLOSE_BRACKET
+Token: SEMICOLON
+Token: SPL_NEWLINE
+Token: SPL_ENDFOR
+Token: SPL_ENDP
+Identifier: ProgV Token: SPL_IDENTIFIER
+Token: PERIOD
